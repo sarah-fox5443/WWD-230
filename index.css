@@ -1,0 +1,29 @@
+html{
+    display: grid;
+    
+    max-width: 175em;
+    max-height: 200em;
+    grid-template-columns: 1fr 1fr;
+}
+header{
+background-color: #5FC4C0;
+text-shadow: 2px 2px 4px #000000;
+box-shadow:2px 2px 4px #000000;
+
+}
+.fred{
+    justify-items: left;
+    grid-column: 1;
+}
+.frog{
+    text-align:right;
+    grid-column: 2/3;
+}
+body{
+
+}
+footer{
+background-color: #5FC4C0;
+text-shadow: 2px 2px 2px #000000;
+box-shadow:2px 2px 4px #000000;
+}
