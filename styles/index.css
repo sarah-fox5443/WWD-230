@@ -3,7 +3,9 @@ html{
     
     max-width: 175em;
     max-height: 200em;
-    grid-template-columns: 1fr 1fr;
+    text-align:center;
+    justify-items: center;
+    grid-template-rows: 1fr 1fr;
 }
 header{
 background-color: #5FC4C0;
@@ -12,12 +14,13 @@ box-shadow:2px 2px 4px #000000;
 
 }
 .fred{
-    justify-items: left;
-    grid-column: 1;
+    justify-items: center;
+    grid-row: 0/1;
+
 }
 .frog{
-    text-align:right;
-    grid-column: 2/3;
+    text-align:center;
+    grid-row: 2/3;
 }
 body{
 
