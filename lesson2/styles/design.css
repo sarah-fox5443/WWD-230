@@ -1,0 +1,51 @@
+html{
+    display:grid;
+    background-color: rgb(139, 139, 139);
+    grid-template-columns: 1fr 1fr 1fr;
+}
+img{
+    width: 150px;
+    height: 100px;
+    border-style: solid;
+    border-width: thin;
+}
+
+#visual{
+    width: 25em;
+    border-style: solid;
+    text-align:center;
+    background-color: rgb(194, 194, 194);
+    border-width: thin;
+
+}
+
+h1, h2, h3{
+    background: navy;
+    color: white;
+    border-style: solid;
+    text-align:center;
+    border-style: solid;
+    border-color: white;
+    border-width: thin;
+    font-family: 'Castoro Titling', cursive;
+}
+
+footer{
+    background: navy;
+    color: white;
+    border-style: solid;
+    text-align:center;
+    border-style: solid;
+    border-color: white;
+    border-width: thin;
+    font-family: 'Castoro Titling', cursive;
+}
+#visual1{
+grid-column: 1;
+}
+#visual2{
+    grid-column: 1/2;
+}
+#visual3{
+    grid-column: 2/3;
+}
