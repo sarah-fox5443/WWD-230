@@ -1,7 +1,7 @@
 let oLastModif = document.lastModified;
 const d = new Date();
 let year = d.getFullYear();
-let y= year+"| Sarah Fox | Las Vegas;"+ oLastModif;
+let y= oLastModif;
 
 document.write(y);
 

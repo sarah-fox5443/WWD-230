@@ -1,1 +1,78 @@
-  
+  html{
+    background-color: #F6DFDF;
+  }
+  header{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-color: #FCAB10;
+    background-color: #2B3A67;
+    color: #FCAB10;
+  }
+
+  h2{
+    color: #FCAB10;
+    font-family: 'Instrument Serif', serif;
+}
+  .header{
+    grid-column: 1;
+  }
+  .social{
+    grid-column: 2/3;
+    
+  }
+.logo{
+    height: 10em;
+    width: 12em;
+}
+
+  .fred {
+    position: relative;
+    grid-column: 2/3;
+    color:  #FCAB10;
+  }
+  .red {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+
+  }
+  .dropdown:hover .red {
+    display: block;
+  }
+  .red, a {
+    display: block;
+
+    padding: 5px;
+    text-decoration: none;
+  }
+  .red, a:hover {
+    color:  #FCAB10;
+    background-color: #2B3A67;
+  }
+  #section{
+    background-color: gray;
+    border-color: black;
+    border-width: 5px;
+    margin: 10em;
+    padding: 10em;
+  }
+
+footer{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    background-color:#2B3A67;
+    color: #FCAB10;
+}
+#one{
+    grid-column: 1;
+
+}
+#two{
+    grid-column: 2/3;
+
+}
+.extra{
+    grid-column: 2/3;
+}
