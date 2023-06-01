@@ -6,16 +6,16 @@ function preloadImage(img){
     }
     img.src=src;
 }
-const imgOb= new IntersectionObserver((entries, imgOb) => {
+const imgObserver= new IntersectionObserver((entries, imgObserver) => {
     entries.forEach(entry =>{
         if(!entry.isIntersecting){
             return;
         } else{
             preloadImage(entry.target);
-            imgOb.unobserve(entry.target);
+            imgObserver.unobserve(entry.target);
         }
     })
-}, imgOb);
+}, imgOptions);
 
 
 images.forEach(image => {image.observer.observe(image);
