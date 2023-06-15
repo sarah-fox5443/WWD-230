@@ -1,3 +1,7 @@
 table, thead, tbody, td{
     border: 5px solid maroon;
 }
+td:nth-child(even) {
+    color: white;
+    background-color: maroon;
+  }
