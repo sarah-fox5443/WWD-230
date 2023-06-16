@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="styles/medium.css">
 <link rel="stylesheet" href="styles/large.css">
 <link href="https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Instrument+Serif&family=Pacifico&family=Ysabeau:ital,wght@1,200&display=swap" rel="stylesheet">
-<link rel="icon" href="favicon.ico" type="image/x-icon" />
+
 <title>Chamber Join Page</title>
 </head>
 <body>
@@ -42,11 +42,12 @@
 <hr>
 
 <main>
+<form action="thankyou.html" method="get">
 <label for="fname">First Name: </label>
-<input type="text" id="fname" name="fname"><br>
+<input type="text" id="fname" name="fname" required><br>
 
 <label for="1name">Last Name: </label>
-<input type="text" id="1name" name="1name"><br>
+<input type="text" id="1name" name="1name" required><br>
 
 <label for="1title">Title: </label>
 <input type="text" id="1title" name="1title"><br>
@@ -56,27 +57,29 @@
 <input type="email" id="1email" name="1email" required><br>
 
 <label for="1phone">Phone number: </label>
-<input type="tel" id="1phone" name="1phone"><br>
+<input type="tel" id="1phone" name="1phone" required><br>
 
 
 
-<label for="1membership">Membership: </label><br>
+<label for="1membership">Membership ($2 a Month): </label><br>
+<p></p>
 <input type="radio" id="1membership" name="1membership">
-<label for="1membership">NP Membership</label><br>
-<input type="radio" id="1membership" name="1membership">
-<label for="1membership">Bronze Membership</label><br>
-<input type="radio" id="1membership" name="1membership">
-<label for="1membership">Silver Membership</label><br>
-<input type="radio" id="1membership" name="1membership">
-<label for="1membership">Gold Membership</label><br>
+<label for="2membership">NP Membership ($3 a Month): </label><br>
+<input type="radio" id="2membership" name="2membership">
+<label for="3membership">Bronze Membership ($4 a Month): </label><br>
+<input type="radio" id="3membership" name="3membership">
+<label for="4membership">Silver Membership ($5 a Month): </label><br>
+<input type="radio" id="4membership" name="4membership">
+<label for="5membership">Gold Membership ($6 a Month): </label><br>
+<input type="radio" id="5membership" name="5membership">
 
 
-<label for="1des">Business Description: </label>
-<input type="textarea" id="1des" name="1des"><br>
+<textarea><label for="1des">Business Description: </label><input type="text" id="1des" name="1des"><br></textarea>
+
 <br>
 <input type="submit" value="Submit">
-<a href="thankyou.html ">Submit</a></input>
 
+</form>
 </main>
 
 

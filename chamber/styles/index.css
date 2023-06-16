@@ -42,7 +42,7 @@
   }
   .red, a {
     display: block;
-
+    color: white;
     padding: 5px;
     text-decoration: none;
   }
