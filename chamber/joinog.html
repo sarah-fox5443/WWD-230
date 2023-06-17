@@ -6,6 +6,7 @@
 <meta name="description" content="WDD230">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="styles/index.css">
+<link rel="stylesheet" href="styles/form.css">
 <link rel="stylesheet" href="styles/base.css">
 <link rel="stylesheet" href="styles/medium.css">
 <link rel="stylesheet" href="styles/large.css">
@@ -14,54 +15,49 @@
 <title>Chamber Join Page</title>
 </head>
 <body>
-<header>
-    <div class="header">
-    <img src="images/logo.webp" class="logo" alt="logo for site">
-    </div>
-    <div class="extra">
-    <h1 class="frog">Las Vegas Chamber of Congress Join Page</h1>
-    <script src="scripts/datetime.js"></script>
-</div>
-
-    <div class="fred">
-        <button>Nav</button>
-        <div class="red">
-        <a href="index.html ">Home page</a>
-        <a href="discover.html">Discover</a>
-        <a href="joinog.html">Join Page</a>
-        <a href="directory.html">Directory</a>
+    <header>
+    
+        
+        <img src="images/logo.webp" class="logo" alt="logo for site">
+        
+        <h1 id="frog">Las Vegas Chamber of Congress Join Page</h1>
+    
+        <div class="fred">
+            <a href="index.html ">Home page</a>
+            <a href="discover.html">Discover</a>
+            <a href="joinog.html">Join Page</a>
+            <a href="directory.html">Directory</a>
         </div>
-    </div>
-  
-    <div class="social">
-    <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="facbook pg" style="height: 50px; width: 50px"></a>
-    <a href="https://www.twitter.com/"><img src="images/twitter.jpg" alt="facbook pg" style="height: 50px; width: 50px"></a>    
-    </div>
-<hr>
-</header>
+      
+        <div class="social">
+        <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="facbook pg" style="height: 50px; width: 50px"></a>
+        <a href="https://www.twitter.com/"><img src="images/twitter.jpg" alt="facbook pg" style="height: 50px; width: 50px"></a>    
+        </div>
+    
+    </header>
 <hr>
 
 <main>
 <form action="thankyou.html" method="get">
 <label for="fname">First Name: </label>
 <input type="text" id="fname" name="fname" required><br>
-
+<br>
 <label for="1name">Last Name: </label>
 <input type="text" id="1name" name="1name" required><br>
-
+<br>
 <label for="1title">Title: </label>
 <input type="text" id="1title" name="1title"><br>
-
+<br>
 <label for="1email">Email: </label>
 <p>Example: 123@gmail.com</p>
 <input type="email" id="1email" name="1email" required><br>
-
+<br>
 <label for="1phone">Phone number: </label>
 <input type="tel" id="1phone" name="1phone" required><br>
 
+<br>
 
-
-<label for="1membership">Membership ($2 a Month): </label><br>
+<label for="1membership">Membership: </label><br>
 <p></p>
 <input type="radio" id="1membership" name="1membership">
 <label for="2membership">NP Membership ($3 a Month): </label><br>

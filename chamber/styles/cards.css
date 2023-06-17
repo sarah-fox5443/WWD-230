@@ -4,7 +4,11 @@ section{
     padding: 25px;
     margin: 25px;
 }
-h2, p{
+h2{
+    color: #FCAB10;
+    font-family: 'Instrument Serif', serif;
+}
+p{
     color: white;
 }
 div{

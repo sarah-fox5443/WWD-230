@@ -1,0 +1,13 @@
+form{
+    max-width: 100em;
+    background-color: #2B3A67;
+    padding: 50px
+}
+label{
+    color:  #FCAB10;
+    font-size: 24px;
+    font-family: 'Instrument Serif', serif;
+}
+br{
+    color:  #FCAB10;
+}
