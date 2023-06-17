@@ -9,3 +9,15 @@ div{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
 }
+header{
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 25px;
+    margin: 25px;
+}
+footer{
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 25px;
+    margin: 25px;
+}
