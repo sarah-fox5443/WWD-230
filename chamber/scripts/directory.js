@@ -1,4 +1,4 @@
-const url = 'data.json';
+const url = 'https://sarah-fox5443.github.io/WWD-230/chamber/scripts/data.json';
 
 async function getDirectoryData() {
     const response = await fetch(url);
@@ -13,7 +13,7 @@ async function getDirectoryData() {
   const displayData = (business) => {
     const cards = document.querySelector('div.card'); 
   
-    business.forEach((data) => {
+    business.forEach((business) => {
 
       let card = document.createElement('section');
       let h2 = document.createElement('h2');
