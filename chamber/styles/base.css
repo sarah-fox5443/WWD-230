@@ -1,4 +1,4 @@
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 400px) {
     html{
         background-color: #F6DFDF;
       }
@@ -120,7 +120,23 @@
         color:#FCAB10;
       
       }
-      .section{
-        background-color: gray;
+
+      #hero{
+        width: 300px; 
+        height: 500px;
+        z-index: 0;
       }
-}
+      .section{
+        background-color: #2B3A67;
+        
+      }
+      #p{
+        margin-top: 50px;
+        margin: 25px;
+        color: #FCAB10;
+
+        background-color: #2B3A67;
+        z-index: 1;
+        padding: 50px;
+      }
+    }

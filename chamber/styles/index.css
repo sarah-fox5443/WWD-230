@@ -36,7 +36,9 @@ h2, h3{
   background-color: #2B3A67;
 }
 
-
+p{
+  color: #FCAB10;
+}
 
 footer{
     background-color:#2B3A67;
@@ -50,6 +52,13 @@ h1{
   color:#FCAB10;
 
 }
-#section{
-  background-color: gray;
+#hero{
+  width: 1550px; 
+  height: 500px;
+}
+div{
+  align-items: center;
+  text-align: center;
+  background-color: #2B3A67;
+  margin: 5px;
 }
