@@ -11,7 +11,7 @@ async function getDirectoryData() {
 
 
   const displayData = (business) => {
-    const cards = document.querySelector('div.spotlight'); 
+    const cards = document.querySelector('div.'); 
   
     business.forEach((business) => {
 
