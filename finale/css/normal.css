@@ -1,0 +1,71 @@
+html{
+    background-color: #A4C2A5;
+}
+header{
+font-family: 'Caprasimo', cursive;
+background-color: #025048;
+color: #CF5C36;
+margin:20px;
+padding: 10px;
+}
+
+h1 h2{
+    font-family: 'Caprasimo', cursive;
+    color: #CF5C36;
+    margin:20px;
+    padding: 10px;
+}
+
+p{
+    font-family: 'Vollkorn', serif;
+    color: #CF5C36;
+    margin:20px;
+    padding: 10px;
+}
+
+div{
+    background-color: #025048;
+    color: #CF5C36;
+    font-family: 'Caprasimo', cursive;
+    margin:20px;
+    padding: 10px;
+    align-content: center;
+}
+form{
+    background-color: #025048;
+    color: #CF5C36;
+    font-family: 'Caprasimo', cursive;
+    margin:20px;
+    padding: 10px;
+    align-content: center;
+
+}
+input{
+    margin: 10px;
+    background-color: #025048;
+    color: #CF5C36;
+}
+#raven{
+    width: 100px;
+    height: 100px;
+    margin:20px;
+    padding: 10px;
+}
+footer{
+    font-family: 'Caprasimo', cursive;
+    color: #CF5C36;
+    background-color: #025048;
+    margin:20px;
+    padding: 10px;
+}
+
+ 
+  .fred, a {
+    color: #CF5C36;
+    text-decoration: none;
+    font-family: 'Caprasimo', cursive;
+  }
+  .fred, a:hover {
+    color:  white;
+    background-color: #A4C2A5;
+  }
